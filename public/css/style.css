@@ -1,0 +1,70 @@
+    .foot{
+        color: white
+      }
+      .foot2{
+        color : black
+      }
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+  text-decoration: none
+}
+a.dontclick {
+   pointer-events: none;
+   cursor: default;
+}
+body{
+  font-family: Helvetica
+}
+p{
+  color: white;
+}
+.ftco-heading-2{
+  font-family: Georgia;
+  font-weight: 600
+}
+.navbar-brand{
+  font-weight: 900
+}
+label.title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  /* margin-top: 20px; */
+}
+label.form-check-label{
+  color: white;
+}
+.btn-primary{
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.btn-primary:hover{
+  background-color:transparent;
+  border-color: black;
+}
+.btn-primary:active{
+  background-color: #161617 !important; 
+  border-color: #494F57 !important;
+  box-shadow: none !important;
+}
+
+.scrol{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.scrol::-webkit-scrollbar { 
+    display: none;
+}
+
+.food2{
+  width: 200px
+}
+.card-img-top {
+    height: 10rem;
+    object-fit: cover;
+    position: relative
+}
