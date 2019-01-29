@@ -65,6 +65,5 @@ label.form-check-label{
 }
 .card-img-top {
     height: 10rem;
-    object-fit: cover;
-    position: relative
+
 }

@@ -49,7 +49,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-sm bg-secondary navbar-dark" >
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}"><img style="width: 30px" src="{{'/image/logo.png'}}"> Groovy</a>
+                <a class="navbar-brand" href="{{ route('home') }}"><img style="width: 30px" src="{{'/image/logo.png'}}"> Groovy</a>
                 <div class="" id="ftco-nav">
                     <ul class="navbar-nav ml-auto">
                         @guest

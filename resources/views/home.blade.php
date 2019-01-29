@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
             <div class="card-group" style="margin-top : 95px ; margin-bottom: 95px">
                 <div class="card col-md bg-secondary" style="border : none ;">
-                        <a href="{{ url('menu?menu=food') }}" >
+                        <a href="{{ url('food') }}" >
                             <img class="card-img" src="{{url('/image/makanan.png')}}"
                                 alt="Card image" >
                             <p class="card-text " align="center" >Food</p>
@@ -13,14 +13,14 @@
                 </div>
                 
                 <div class="card col-md bg-secondary" style="border : none ;">
-                        <a href="" >
+                       <a href="{{ url('snack') }}" >
                             <img class="card-img" src="{{url('/image/snack.png')}}"
                                 alt="Card image" >
                             <p class="card-text " align="center" >Snacks</p>
                         </a>
                 </div>
                 <div class="card col-md bg-secondary" style="border : none ;">
-                        <a href="">
+                        <a href="{{ url('drinks') }}" >
                             <img class="card-img" src="{{url('/image/coffe-cups.png')}}" alt="Card image" >
                         <p class="card-text " align="center">Drinks</p>
                         </a>
